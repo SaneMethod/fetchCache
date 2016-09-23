@@ -60,6 +60,9 @@ On your Fetch request you get 4 new parameters :
     });
 ```
 
+See the [MDN Fetch API Docs](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) for more details on
+using the Fetch API.
+
 ## Notes
 
 * You can delete the cache by using ```localStorage.clear()```, or by using ```localStorage.removeItem('cacheKey')```
@@ -70,16 +73,11 @@ cacheKey.
 
 # Installation
 
-You can use either ```bower``` or ```npm``` to install, or download manually.
+You can use ```bower``` to install, or download manually.
 
 ## Bower:
 ```
 bower install fetchCache
-```
-
-## NPM:
-```
-npm install fetchCache
 ```
 
 As we override the native fetch, this code should be added to your project such that it runs before any other code
