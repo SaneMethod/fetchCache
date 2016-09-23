@@ -1,0 +1,14 @@
+{
+    "name": "fetchCache",
+    "homepage": "https://github.com/SaneMethod/fetchCache",
+    "description": "Store fetch API responses using the browser's local storage, or any Storage-interface compatible object.",
+    "main": "fetchCache.js",
+    "keywords": [
+        "fetch",
+        "localStorage",
+        "caching"
+    ],
+    "ignore":[],
+    "license": "Apache-2.0",
+    "dependencies": {}
+}
