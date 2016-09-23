@@ -17,7 +17,7 @@ only values that can be serialized as a string (including JSON) can be stored.
 	fetch('url', {
 		method: 'GET',
 		localCache   : true,        // Required. Either a boolean, in which case localStorage will be used, or
-		an object that implements the Storage interface.
+		// an object that implements the Storage interface.
 
 		cacheTTL     : 1,           // Optional. In hours, default is 5.
 		cacheKey     : 'post',      // Optional. If not included, a cacheKey will be generated from the URL, the
