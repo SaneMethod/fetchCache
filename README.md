@@ -21,7 +21,7 @@ only values that can be serialized as a string (including JSON) can be stored.
 
 		cacheTTL     : 1,           // Optional. In hours, default is 5.
 		cacheKey     : 'post',      // Optional. If not included, a cacheKey will be generated from the URL, the
-		content-type header and the request body, if available.
+		// content-type header and the request body, if available.
 		isCacheValid : function(){  // Optional. A function that should return a boolean value.
 			return true;
 		}
