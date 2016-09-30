@@ -132,7 +132,7 @@
             value,
             dataType;
 
-        if (!storage) return;
+        if (!storage) return fetch(url, settings);
 
         ttl = storage.getItem(cacheKey + 'cachettl');
 
